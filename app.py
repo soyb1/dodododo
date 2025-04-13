@@ -1,4 +1,3 @@
-
 import os
 from flask import Flask, render_template, request, jsonify
 from telegram import Bot, Update
@@ -15,7 +14,7 @@ WEB_APP_URL = os.getenv("WEB_APP_URL", "https://your-webapp-url.com")
 users = {}
 
 # Telegram Bot Setup
-bot = Bot(BOT_TOKEN)
+bot = Bot(7564198568:AAHjuSfh3doH4HMZ2OlenfvEZk9MkSCSQC0)
 
 @app.route("/")
 def index():

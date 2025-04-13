@@ -8,7 +8,7 @@ import asyncio
 app = Flask(__name__)
 
 # Load config from environment variables
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = os.getenv("7564198568:AAHjuSfh3doH4HMZ2OlenfvEZk9MkSCSQC0")
 WEB_APP_URL = os.getenv("WEB_APP_URL", "https://your-webapp-url.com")
 
 # In-memory storage for balances (for demo purposes)
